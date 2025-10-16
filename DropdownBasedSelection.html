@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdow-based Selection Page</title>
+</head>
+<body>
+    <!-- 10. Create a Dropdown-based Selection Page:
+    ● Add multiple <select> dropdowns for:
+    ○ Country
+    ○ State
+    ○ City
+    ○ Favorite Tourist Place
+    ● Each dropdown must have a pre-selected option.
+    ● Add a <p> summarizing your choices. -->
+    <form action="#">
+        <label for="country">Select Country:</label><br>
+        <select id="country" name="country">
+            <option value="india" selected>India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <label for="state">Select State:</label><br>
+        <select id="state" name="state">
+            <option value="uttarpradesh" selected>Uttar Pradesh</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="tamilnadu">Tamil Nadu</option>
+        </select><br><br>
+
+        <label for="city">Select City:</label><br>
+        <select id="city" name="city">
+            <option value="lucknow" selected>Lucknow</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+        </select><br><br>
+
+        <label for="touristplace">Select Favorite Tourist Place:</label><br>
+        <select id="touristplace" name="touristplace">
+            <option value="tajmahal" selected>Taj Mahal</option>
+            <option value="eiffeltower">Eiffel Tower</option>
+            <option value="statueofliberty">Statue of Liberty</option>
+            <option value="greatwallofchina">Great Wall of China</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <p>You have selected India as your country, Uttar Pradesh as your state, Lucknow as your city, and Taj Mahal as your favorite tourist place.</p>
+</body>
+</html>

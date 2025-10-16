@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database Page</title>
+</head>
+<body>
+    <!--14. Create a Movie Database Page using a <table>:
+    ● Columns: Movie Name, Genre, Year, IMDB Rating, and Link.
+    ● Include attributes like border, title, and colspan.
+    ● Add a caption at the top and a note at the bottom using <small>.  -->
+
+    <table border="1" title="Movie Database">
+        <caption><h2>Movie Database</h2></caption>
+        <thead>
+            <tr>
+                <th>Movie Name</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>IMDB Rating</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Shawshank Redemption</td>
+                <td>Drama</td>
+                <td>1994</td>
+                <td>9.3</td>
+                <td><a href="https://www.imdb.com/title/tt0111161/" target="_blank">IMDB Link</a></td>
+            </tr>
+            <tr>
+                <td>The Godfather</td>
+                <td>Crime, Drama</td>
+                <td>1972</td>
+                <td>9.2</td>
+                <td><a href="https://www.imdb.com/title/tt0068646/" target="_blank">IMDB Link</a></td>
+            </tr>
+            <tr>
+                <td>The Dark Knight</td>
+                <td>Action, Crime, Drama</td>
+                <td>2008</td>
+                <td>9.0</td>
+                <td><a href="https://www.imdb.com/title/tt0468569/" target="_blank">IMDB Link</a></td>
+            </tr>
+            <tr>
+                <td>Pulp Fiction</td>
+                <td>Crime, Drama</td>
+                <td>1994</td>
+                <td>8.9</td>
+                <td><a href="https://www.imdb.com/title/tt0110912/" target="_blank">IMDB Link</a></td>
+            </tr>
+            <tr>
+                <td>Forrest Gump</td>
+                <td>Drama, Romance</td>
+                <td>1994</td>
+                <td>8.8</td>
+                <td><a href="https://www.imdb.com/title/tt0109830/" target="_blank">IMDB Link</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5"><small>Note: Ratings are based on IMDB user reviews and may change over time.</small></td>
+            </tr>    
+        </tfoot>
+    </table>               
+</body>
+</html>
