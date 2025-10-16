@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URI Encoding Example</title>
+</head>
+<body>
+    <!-- 16. Create a webpage that demonstrates URI encoding.
+    Add a hyperlink that includes special characters in its URL, for example:
+    https://example.com/search?query=HTML & CSS
+    Write the correct encoded version of this link using %20 for spaces. -->
+    <h1>URI Encoding Demonstration</h1>
+    <p>Original (incorrect) URL with spaces and special characters:</p>
+    <p>
+        <a href="https://example.com/search?query=HTML & CSS">
+            https://example.com/search?query=HTML & CSS
+        </a>
+    </p>
+    <p>Correctly encoded version using <code>%20</code> for spaces:</p>
+    <p>
+        <a href="https://example.com/search?query=HTML%20%26%20CSS" target="_blank">
+            https://example.com/search?query=HTML%20%26%20CSS
+        </a>
+    </p>
+    <p>
+        The <code>%20</code> represents a space, and <code>%26</code> encodes the ampersand (&).  
+        URI encoding ensures URLs are valid and can be interpreted correctly by web browsers.
+    </p>
+</body>
+</html>

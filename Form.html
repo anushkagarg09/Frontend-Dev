@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+</head>
+<body>
+    <!--  17. Create two HTML files:
+    ● form.html → Contains a form with a text input and a submit button.
+    ● result.html → Displays a message “Form successfully submitted.”
+    Use an <iframe> in form.html to load result.html after clicking Submit.-->
+        <h1>Form Page</h1>
+        <form action="result.html" method="get" target="resultFrame">
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" name="username" placeholder="Type your name" required>
+            <button type="submit">Submit</button>
+       </form>
+       <hr>
+       <iframe name="resultFrame" width="100%" height="200" style="border:1px solid #ccc;"></iframe>
+
+</body>
+</html>

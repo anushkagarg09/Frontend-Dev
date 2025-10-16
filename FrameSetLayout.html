@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Frameset Layout</title>
+  </head>
+  <!-- 4. Create a frameset layout using <frameset> and <frame> tags:
+  ● Top frame → Navigation links (Home, About, Contact)
+  ● Bottom frame → Displays a message “Welcome to My Website” (Use only HTML — no CSS.) -->
+  <frameset rows="20%,*">
+    <frame src="top.html" name="topFrame" noresize="noresize">
+    <frame src="bottom.html" name="bottomFrame">
+    <noframes>
+      <body>
+        Your browser does not support frames.
+      </body>
+    </noframes>
+  </frameset>
+</html>

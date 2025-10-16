@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+</head>
+<body>
+    <!--11. Design a form that collects student information — Name, Roll Number, and Course.
+    Use a <select> dropdown for choosing a course.
+    Include an option that says “Select Course” as default (disabled and selected).  -->
+    <h1 >Student Information Form</h1>
+    <form action="#" >
+    <label for="studentName">Name:</label>
+    <input type="text" id="studentName" name="studentName" placeholder="Enter full name" required><br><br>
+    <label for="rollNumber">Roll Number:</label>
+    <input type="text" id="rollNumber" name="rollNumber" placeholder="Enter roll number" required><br><br>
+    <label for="course">Course:</label>
+    <select id="course" name="course" required>
+    <option value="" disabled selected>Select Course</option>
+    <option value="Mathematics">Mathematics</option>
+    <option value="Science">Science</option>
+    <option value="History">History</option>
+    <option value="Computer Science">Computer Science</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
