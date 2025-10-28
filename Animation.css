@@ -1,0 +1,50 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+}
+
+/* LOADER CONTAINER */
+.loader {
+  display: flex;
+  gap: 1rem;
+}
+
+/* CIRCLES */
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  animation: bounce 0.6s infinite ease-in-out;
+}
+
+/* DELAY FOR EACH CIRCLE */
+.circle:nth-child(1) {
+  animation-delay: 0s;
+}
+.circle:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.circle:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* BOUNCE ANIMATION */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
