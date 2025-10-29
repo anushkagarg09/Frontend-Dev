@@ -1,0 +1,194 @@
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #c1eac5;
+  color: #1e3a1a;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background-color: #c1eac5;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #1b3a25;
+  margin: 0 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link a:hover {
+  color: #236d3b;
+}
+
+.btn button {
+  padding: 8px 25px;
+  border: 1px solid #1b3a25;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn button:hover {
+  background-color: #1b3a25;
+  color: white;
+}
+
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 80px;
+}
+
+.home h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #103517;
+  line-height: 1.3;
+}
+
+.home p {
+  font-size: 25px;
+  color: #2e5936;
+  margin-bottom: 35px;
+  max-width: 450px;
+}
+
+.home button {
+  padding: 12px 30px;
+  background-color: #103517;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.home button:hover {
+  background-color: #1e5a2b;
+}
+
+
+.fashion-img {
+  position: relative;
+}
+
+.fashion-img img {
+  width: 500px;
+  height: auto;
+  border-radius: 50px;
+  background-color: #c1eac5;
+  padding: 30px;
+  object-fit: cover;
+}
+
+
+/* 2nd page */
+
+.page2{
+  background-color: white;
+}
+
+.shop h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #103517;
+  justify-content: center;
+}
+
+.shop p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #103517;
+}
+
+.fash-img{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.fash-img .img1 {
+  justify-content: space-evenly;
+  align-items: right;
+  color: black;
+  line-height: 1.1;
+}
+
+.fash-img .img2 {
+  justify-content:space-evenly;
+  align-items: center;
+  color: black;
+  line-height: 1.1;
+
+}
+
+.fash-img .img3 {
+  justify-content: space-evenly;
+  align-items: left;
+  color: black;
+  line-height: 1.1;
+}
+
+.fash-img .img1 img{
+  width: 50%;
+  object-fit: cover;
+
+}
+
+.fash-img .img2 img{
+  width: 50%;
+  object-fit: cover;
+}
+
+.fash-img .img3 img{
+  width: 50%;
+  object-fit: cover;
+}
+
+.btnn button {
+
+  padding: 8px 25px;
+  border: 1px solid #1b3a25;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  height: 5vh;   
+}
+
+.btnn button:hover {
+  background-color: #1b3a25;
+  color: white;
+}
+
+
