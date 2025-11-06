@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pseudo-Classes Demonstration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pseudo-Classes Demonstration</h1>
+
+  <div class="container">
+
+    <div class="box">
+      <h3>:hover</h3>
+      <p>Hover over the link to see the color change.</p>
+      <div class="example">
+        <a href="#" class="hover-link">Hover Over Me</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>:focus</h3>
+      <p>Click inside the input to see the border and background change.</p>
+      <div class="example">
+        <input type="text" class="focus-input" placeholder="Click here" />
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>:active</h3>
+      <p>Press the button to see the color darken while active.</p>
+      <div class="example">
+        <button class="active-btn">Click Me</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>:nth-child()</h3>
+      <p>Odd and even list items have different background colors.</p>
+      <div class="example">
+        <ul class="list-demo">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
