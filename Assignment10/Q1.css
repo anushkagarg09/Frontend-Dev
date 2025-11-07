@@ -1,0 +1,19 @@
+/* Hero Section Styling */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80')
+              center/cover no-repeat;
+  height: 100vh;
+}
+
+/* Navbar hover effect */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive typography tweak */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
